@@ -1,0 +1,263 @@
+
+.product-details-page {
+  background: #fff9fc;
+  min-height: 100vh;
+  padding: 35px 7%;
+  color: #634858;
+}
+
+.product-back {
+  margin-bottom: 30px;
+}
+
+.product-back a {
+  text-decoration: none;
+  color: #b65d85;
+  font-weight: 600;
+}
+
+.product-details-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product-image-box {
+  position: relative;
+  background: #fceaf2;
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+.details-main-image {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  display: block;
+}
+
+.details-product-tag {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background: #c66d94;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  z-index: 1;
+}
+
+.product-information {
+  padding: 15px 0;
+}
+
+.details-category {
+  display: inline-block;
+  background: #f8e2ec;
+  color: #ae5a80;
+  padding: 8px 17px;
+  border-radius: 25px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.product-information h1 {
+  font-family: "Dancing Script", cursive;
+  color: #a64f77;
+  font-size: 43px;
+  margin-bottom: 15px;
+}
+
+.details-rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #e5a33e;
+  margin-bottom: 20px;
+}
+
+.details-reviews {
+  color: #927d87;
+  font-size: 13px;
+}
+
+.details-price {
+  font-size: 30px;
+  font-weight: 700;
+  color: #b65d85;
+}
+
+.details-price del {
+  font-size: 17px;
+  font-weight: 400;
+  color: #a99aa1;
+  margin-left: 12px;
+}
+
+.details-description {
+  color: #806b76;
+  line-height: 1.9;
+  margin: 22px 0;
+}
+
+.details-highlights {
+  margin: 25px 0;
+}
+
+.details-highlights h3 {
+  font-size: 19px;
+  color: #a64f77;
+  margin-bottom: 15px;
+}
+
+.details-highlights p {
+  color: #806b76;
+  margin-bottom: 10px;
+}
+
+.details-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-top: 25px;
+}
+
+.details-cart-btn,
+.details-wishlist-btn {
+  padding: 14px 22px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.details-cart-btn {
+  background: #c66d94;
+  color: white;
+}
+
+.details-wishlist-btn {
+  background: #f8e2ec;
+  color: #a64f77;
+}
+
+.details-wishlist-btn.active {
+  background: #f3c4d9;
+}
+
+.details-cart-btn:hover,
+.details-wishlist-btn:hover {
+  transform: translateY(-3px);
+}
+
+.details-related {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.details-related h2 {
+  font-family: "Dancing Script", cursive;
+  color: #a64f77;
+  font-size: 38px;
+}
+
+.details-related > p {
+  color: #927d87;
+  margin-bottom: 30px;
+}
+
+.details-related-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.details-related-card {
+  text-decoration: none;
+  color: #684b59;
+  background: white;
+  padding: 12px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(180, 93, 133, 0.08);
+  transition: 0.3s;
+}
+
+.details-related-card:hover {
+  transform: translateY(-5px);
+}
+
+.details-related-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 13px;
+}
+
+.details-related-card h4 {
+  font-size: 15px;
+  margin: 12px 0;
+}
+
+.details-related-card span {
+  color: #bd6289;
+  font-weight: 700;
+}
+
+.product-not-found {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.product-not-found a {
+  color: #b65d85;
+}
+
+@media (max-width: 900px) {
+  .product-details-container {
+    gap: 30px;
+  }
+
+  .details-main-image {
+    height: 400px;
+  }
+
+  .details-related-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .product-details-page {
+    padding: 25px 5%;
+  }
+
+  .product-details-container {
+    grid-template-columns: 1fr;
+  }
+
+  .details-main-image {
+    height: 330px;
+  }
+
+  .product-information h1 {
+    font-size: 35px;
+  }
+
+  .details-buttons {
+    flex-direction: column;
+  }
+
+  .details-buttons button {
+    width: 100%;
+  }
+
+  .details-related-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}

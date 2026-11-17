@@ -1,0 +1,514 @@
+
+.giftora-home {
+  background: #fff8fa;
+  color: #71364d;
+  font-family: 'Poppins', sans-serif;
+}
+
+.giftora-home section {
+  padding: 38px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.section-title h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #96304f;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-title p {
+  font-size: 12px;
+  color: #926a7b;
+}
+
+/* CATEGORY */
+
+.category-section {
+  background: #fff8fa;
+}
+
+.category-card {
+  background: white;
+  border: 1px solid #f9ccdc;
+  border-radius: 16px;
+  overflow: hidden;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 4px 12px #d75d881c;
+  transition: .3s;
+}
+
+.category-card:hover,
+.product-card:hover,
+.gift-box-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 9px 20px #d75d8830;
+}
+
+.category-card img {
+  width: 100%;
+  height: 115px;
+  object-fit: cover;
+}
+
+.category-details {
+  padding: 9px 5px;
+}
+
+.category-details h5 {
+  font-size: 13px;
+  color: #842d4e;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.category-details p {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.category-details a,
+.category-details .category-explore {
+  color: #e75480;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* TRENDING */
+
+.trending-section {
+  background: #fff5f8;
+}
+
+.product-card {
+  position: relative;
+  background: white;
+  border: 1px solid #f9d5e2;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 4px 12px #d75d881c;
+  transition: .3s;
+}
+
+.product-card > img {
+  width: 100%;
+  height: 150px;
+  padding: 7px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.product-tag {
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  left: 12px;
+  background: #ec6290;
+  color: white;
+  padding: 5px 9px;
+  border-radius: 20px;
+  font-size: 9px;
+}
+
+.wishlist-btn {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: none;
+  border-radius: 50%;
+  color: #96304f;
+  cursor: pointer;
+  transition: color .2s ease, transform .2s ease, background .2s ease;
+}
+
+.wishlist-btn:hover,
+.wishlist-btn.liked {
+  color: #ed3e79;
+  transform: scale(1.1);
+}
+
+.wishlist-btn.liked {
+  background: #ffe1eb;
+}
+
+.product-details {
+  padding: 5px 8px 12px;
+}
+
+.product-details h5 {
+  font-size: 12px;
+  color: #842d4e;
+  font-weight: 700;
+}
+
+.rating {
+  color: #ffa34d;
+  font-size: 11px;
+}
+
+.rating span {
+  color: #a78b97;
+}
+
+.price {
+  color: #842d4e;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.price del {
+  color: #bda5af;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.add-cart-btn {
+  width: 85%;
+  padding: 8px;
+  border: none;
+  border-radius: 25px;
+  background: #e75480;
+  color: white;
+  font-size: 11px;
+  transition: .3s;
+}
+
+.add-cart-btn:hover {
+  background: #a82f5d;
+}
+
+/* GIFT FINDER */
+
+.gift-finder-section {
+  padding: 12px 2% !important;
+}
+
+.gift-finder-content {
+  background: linear-gradient(100deg, #f8bfd4, #ffdce9);
+  border: 1px solid #f7b4cc;
+  border-radius: 17px;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.gift-finder-image {
+  font-size: 60px;
+}
+
+.gift-finder-text span {
+  font-size: 10px;
+  color: #a52f5c;
+}
+
+.gift-finder-text h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #8d2850;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.gift-finder-text p {
+  font-size: 11px;
+  margin: 0;
+  max-width: 420px;
+}
+
+.finder-btn,
+.just-because-content a {
+  background: #e75480;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 11px 17px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: .3s;
+}
+
+.finder-btn:hover,
+.just-because-content a:hover {
+  background: #a82f5d;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* GIFT BOXES */
+
+.gift-box-section {
+  background: #fff8fa;
+}
+
+.gift-box-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  padding: 9px;
+  border: 1px solid #f7d3e0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px #d75d881c;
+  height: 100%;
+  transition: .3s;
+}
+
+.gift-box-card img {
+  width: 38%;
+  height: 105px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.gift-box-details h5 {
+  font-size: 12px;
+  color: #842d4e;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.gift-box-details p {
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+
+.gift-box-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.gift-box-buttons button {
+  border: 1px solid #f18bb0;
+  color: #d64279;
+  background: white;
+  border-radius: 20px;
+  padding: 6px 9px;
+  font-size: 9px;
+}
+
+.gift-box-buttons button:hover {
+  background: #e75480;
+  color: white;
+}
+
+/* JUST BECAUSE */
+
+.just-because-section {
+  padding: 8px 2% !important;
+}
+
+.just-because-content {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(100deg, #f9c4d8, #ffe4ed);
+  border: 1px solid #f7b9d0;
+  border-radius: 16px;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.just-because-content h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  color: #8d2850;
+}
+
+.just-because-content p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.promo-bow {
+  font-size: 55px;
+}
+
+/* REVIEWS */
+
+.reviews-section {
+  background: #fff8fa;
+}
+
+.review-card {
+  background: white;
+  border: 1px solid #f8d5e1;
+  box-shadow: 0 4px 12px #d75d881c;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+}
+
+.review-avatar {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #fbd5e3;
+  color: #d64279;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+}
+
+.review-stars {
+  color: #ffa34d;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.review-card p {
+  font-size: 10px;
+  margin: 4px 0;
+}
+
+.review-card h6 {
+  font-size: 10px;
+  color: #b33b6c;
+  margin: 0;
+}
+
+/* NEWSLETTER */
+
+.newsletter-section {
+  padding: 12px 2% !important;
+}
+
+.newsletter-content {
+  background: linear-gradient(100deg, #f8c2d7, #ffe2ec);
+  border: 1px solid #f5bbd0;
+  border-radius: 15px;
+  padding: 20px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.newsletter-content h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 29px;
+  color: #8d2850;
+}
+
+.newsletter-content p {
+  font-size: 11px;
+  margin: 0;
+}
+
+.newsletter-content form {
+  display: flex;
+  background: white;
+  padding: 4px;
+  border-radius: 30px;
+  max-width: 430px;
+  width: 100%;
+}
+
+.newsletter-content input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  outline: none;
+  padding: 9px 12px;
+  font-size: 11px;
+  border-radius: 30px;
+}
+
+.newsletter-content button {
+  border: none;
+  background: #e75480;
+  color: white;
+  padding: 9px 16px;
+  border-radius: 25px;
+  font-size: 10px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 768px) {
+  .giftora-home section {
+    padding: 28px 0;
+  }
+
+  .section-title h2 {
+    font-size: 27px;
+  }
+
+  .gift-finder-content {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .gift-finder-image {
+    font-size: 40px;
+  }
+
+  .just-because-content {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .newsletter-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media(max-width: 480px) {
+  .category-card img {
+    height: 95px;
+  }
+
+  .product-card > img {
+    height: 120px;
+  }
+
+  .gift-box-card {
+    gap: 8px;
+  }
+
+  .gift-box-card img {
+    height: 90px;
+  }
+
+  .gift-box-details h5 {
+    font-size: 10px;
+  }
+
+  .gift-box-details p {
+    font-size: 9px;
+  }
+
+  .just-because-content h2 {
+    font-size: 29px;
+  }
+
+  .newsletter-content form {
+    flex-direction: column;
+    border-radius: 12px;
+  }
+
+  .newsletter-content button {
+    width: 100%;
+  }
+}

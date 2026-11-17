@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "Birthday Gifts",
+    "image": "/images/categories/birthday.jpg",
+    "description": "Make their special day unforgettable with a thoughtful surprise.",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Anniversary Gifts",
+    "image": "/images/categories/anniversary.jpg",
+    "description": "Celebrate love and every milestone with a meaningful gift."
+  },
+  {
+    "id": 3,
+    "name": "Gifts for Her",
+    "image": "/images/categories/gifts-for-her.jpg",
+    "description": "Beautiful surprises for someone special.",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Gifts for Him",
+    "image": "/images/categories/gifts-for-him.jpg",
+    "description": "Find a thoughtful gift he will truly love."
+  },
+  {
+    "id": 5,
+    "name": "Gifts for Friends",
+    "image": "/images/categories/gifts-for-friends.jpg",
+    "description": "Share a little happiness with your favourite people.",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "Personalized Gifts",
+    "image": "/images/categories/personalized.jpg",
+    "description": "Make it uniquely theirs with a personal touch.",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "name": "Chocolate Gifts",
+    "image": "/images/categories/chocolates.jpg",
+    "description": "Send something sweet to make their day."
+  },
+  {
+    "id": 8,
+    "name": "Self-Care Gifts",
+    "image": "/images/categories/self-care.jpg",
+    "description": "Thoughtful treats for rest, comfort, and relaxation."
+  },
+  {
+    "id": 9,
+    "name": "Cute Stationery",
+    "image": "/images/categories/stationery.jpg",
+    "description": "Add a little joy to notes, plans, and everyday moments."
+  }
+]

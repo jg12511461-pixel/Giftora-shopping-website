@@ -1,0 +1,103 @@
+
+.giftora-footer {
+  background: linear-gradient(110deg, #82364f, #a44c6b);
+  color: white;
+  padding: 38px 0 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-tagline {
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.giftora-footer h5 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ffffff45;
+  padding-bottom: 7px;
+}
+
+.giftora-footer a {
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  color: #ffe7ef;
+  font-size: 12px;
+  margin-bottom: 9px;
+  transition: .3s;
+}
+
+.giftora-footer a:hover {
+  color: white;
+  transform: translateX(4px);
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  background: white;
+  color: #873653;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.social-icons a:hover {
+  background: #f8c4d8;
+  color: #873653;
+}
+
+.footer-love {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.footer-love svg {
+  color: #ffc1d6;
+}
+
+.footer-love p {
+  margin-bottom: 5px;
+}
+
+.footer-love span {
+  font-size: 26px;
+  color: #ffd5e3;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #ffffff35;
+  margin-top: 25px;
+  padding-top: 12px;
+  font-size: 10px;
+  color: #ffe1eb;
+}
+
+@media(max-width: 768px) {
+  .footer-love {
+    text-align: left;
+  }
+
+  .giftora-footer {
+    padding: 30px 0 12px;
+  }
+}
